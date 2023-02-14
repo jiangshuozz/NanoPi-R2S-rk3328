@@ -28,7 +28,7 @@ env:
 jobs:
   Build:
     runs-on: ubuntu-20.04
-    if: github.repository == 'DHDAXCW/NanoPi-R2S-rk3328'
+    if: github.repository == 'jiangshuozz/NanoPi-R2S-rk3328'
     outputs:
       OPENWRTROOT: ${{ steps.update.outputs.OPENWRTROOT }}
       PLATFORM: ${{ steps.compile.outputs.PLATFORM }}
